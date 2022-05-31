@@ -1,21 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Honeyside.Api.Tests", "Honeyside.Api.Tests\Honeyside.Api.Tests.csproj", "{1DD30333-F5D1-4C23-81E8-9CC08E600D38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Honeyside.Api.Tests", "Honeyside.Api.Tests\Honeyside.Api.Tests.csproj", "{1DD30333-F5D1-4C23-81E8-9CC08E600D38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Honeyside.Api.Data", "Honeyside.Api.Data\Honeyside.Api.Data.csproj", "{85B988DF-6071-4EDF-8EF9-831092A776A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Honeyside.Api.Data", "Honeyside.Api.Data\Honeyside.Api.Data.csproj", "{85B988DF-6071-4EDF-8EF9-831092A776A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Honeyside.Api", "Honeyside.Api\Honeyside.Api.csproj", "{0954A92D-388E-4E36-B53F-7E40FE1EE250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Honeyside.Api", "Honeyside.Api\Honeyside.Api.csproj", "{0954A92D-388E-4E36-B53F-7E40FE1EE250}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22E186B0-D248-4E6A-B950-CE0BEF0EECF9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1DD30333-F5D1-4C23-81E8-9CC08E600D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +32,11 @@ Global
 		{0954A92D-388E-4E36-B53F-7E40FE1EE250}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0954A92D-388E-4E36-B53F-7E40FE1EE250}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0954A92D-388E-4E36-B53F-7E40FE1EE250}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8BDA647-EA58-4A89-A647-B921BE20815E}
 	EndGlobalSection
 EndGlobal
