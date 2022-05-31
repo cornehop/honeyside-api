@@ -1,4 +1,7 @@
-﻿namespace Honeyside.Api.Data.Entities
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Honeyside.Api.Data.Entities
 {
     /// <summary>
     /// Base class for the entities
@@ -8,6 +11,8 @@
         /// <summary>
         /// Unique identifier of the entity
         /// </summary>
-        public Guid Id { get; set; }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public Guid ID { get; set; }
     }
 }
